@@ -544,10 +544,6 @@
   width:15rem;
 }
 @media screen and (max-width:500px){
-.packages{
-  background:var(--dark);
-  position:relative;
-}
 .packages .packages__text{
   color:var(--light);
   margin:8rem;
@@ -555,14 +551,15 @@
   justify-content:space-between;
   flex-direction:column;
   gap:3rem;
-  align-items: center;
+  align-items:center;
 }
 .packages h2{
   font-size:5rem;
   font-weight:100;
+  text-align:center;
 }
 .packages li{
-  font-size:2rem;
+  font-size:1.5rem;
   height:5rem;
 }
 .packages img{
